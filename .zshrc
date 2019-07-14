@@ -118,6 +118,8 @@ source $ZSH/oh-my-zsh.sh
 #
 source ~/.aliases
 
+export LC_ALL=en_US.UTF-8
+
 # color formatting for man pages
 export LESS_TERMCAP_mb=$'\e[1;31m'     # begin bold
 export LESS_TERMCAP_md=$'\e[1;36m'     # begin blink
