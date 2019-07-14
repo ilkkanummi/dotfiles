@@ -1,0 +1,7 @@
+alias l="exa --long --git --header --bytes --time-style=long-iso --group-directories-first"
+alias ll="exa -a --long --git --header --bytes --time-style=long-iso --group-directories-first"
+alias ls="exa"
+alias dh="du -hs * | gsort -h"
+alias brewup='brew update; brew upgrade; brew cleanup; brew doctor'
+alias dotfiles='/usr/local/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+

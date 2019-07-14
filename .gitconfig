@@ -1,0 +1,11 @@
+[user]
+	name = "Ilkka Nummi"
+	email = "ilkka.nummi@cgi.com"
+[color]
+	ui = auto
+[core]
+	autocrlf = false
+	preloadindex = true
+	fscache = true
+[push]
+	default = simple
