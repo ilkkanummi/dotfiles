@@ -149,8 +149,8 @@ export JAVA_HOME=/Users/ilkkanummi/.sdkman/candidates/java/current
 export PATH="/usr/local/opt/node@8/bin:/Users/ilkkanummi/Library/Python/2.7/bin:$PATH"
 
 if type rg &> /dev/null; then
-    export FZF_DEFAULT_COMMAND='rg --files --hidden'
-    export FZF_CTRL_T_COMMAND='rg --files --hidden'
+    export FZF_DEFAULT_COMMAND='rg --files 2>/dev/null'
+    export FZF_CTRL_T_COMMAND='rg --files 2>/dev/null'
 fi
 
 # history duplicates
