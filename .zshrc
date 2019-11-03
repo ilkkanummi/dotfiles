@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/ilkkanummi/.oh-my-zsh"
+export ZSH="/Users/nummii/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -76,6 +76,7 @@ plugins=(
 	history 
 	tmux 
 	zsh-autosuggestions 
+	zsh-syntax-highlighting
 	extract 
 	colored-man-pages 
 	catimg
@@ -165,4 +166,7 @@ setopt HIST_BEEP
 
 zstyle ':completion:*' list-prompt   ''
 zstyle ':completion:*' select-prompt ''
+
+
+export NODE_OPTIONS=--max-old-space-size=4096
 

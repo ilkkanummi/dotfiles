@@ -7,5 +7,6 @@
 	autocrlf = false
 	preloadindex = true
 	fscache = true
+	excludesfile = /Users/ilkkanummi/.gitignore
 [push]
 	default = simple
